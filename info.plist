@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>contactEmailRot13</key>
+  <string>cuvyvcc.sruer@tznvy.pbz</string>
+  <key>contactName</key>
+  <string>Philipp Fehre</string>
+  <key>description</key>
+  <string>Syntax highlight for todo.txt http://todotxt.com/ file</string>
+  <key>name</key>
+  <string>TodoTXT</string>
+  <key>ordering</key>
+  <array>
+    <string>B68B5C70-7D5A-11E0-A411-0800200C9A66</string>
+  </array>
+  <key>uuid</key>
+  <string>A161E170-7D5A-11E0-A411-0800200C9A66</string>
+</dict>
+</plist>
