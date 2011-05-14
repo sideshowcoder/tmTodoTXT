@@ -14,33 +14,27 @@
     <array>
       <dict>
         <key>match</key>
-        <string>^\(A\)</string>
+        <string>^\([A-Z]\)</string>
         <key>name</key>
-        <string>markup.bold.todotxt.priority.a</string>
-      </dict>
-      <dict>
-        <key>match</key>
-        <string>^\(B\)</string>
-        <key>name</key>
-        <string>markup.bold.todotxt.priority.b</string>
-      </dict>
-      <dict>
-        <key>match</key>
-        <string>^\(C\)</string>
-        <key>name</key>
-        <string>markup.bold.todotxt.priority.c</string>
+        <string>constant.language.todotxt.priority</string>
       </dict>
       <dict>
         <key>match</key>
         <string>\@\S*</string>
         <key>name</key>
-        <string>markup.underline.todotxt.context</string>
+        <string>entity.name.tag.todotxt.context</string>
       </dict>      
       <dict>
         <key>match</key>
         <string>\+\S*</string>
         <key>name</key>
-        <string>markup.italic.todotxt.project</string>
+        <string>entity.name.tag.todotxt.project</string>
+      </dict>      
+      <dict>
+        <key>match</key>
+        <string>^x\s.*$</string>
+        <key>name</key>
+        <string>comment.line.todotxt</string>
       </dict>      
     </array>
     <key>scopeName</key>
