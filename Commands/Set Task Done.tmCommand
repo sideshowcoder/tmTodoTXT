@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>beforeRunningCommand</key>
+    <string>nop</string>
+    <key>command</key>
+    <string>#!/usr/bin/env ruby
+require 'date'
+print "x #{Date.today.to_s} " + STDIN.read.gsub(/\(.\)\s/, '')</string>
+    <key>fallbackInput</key>
+    <string>line</string>
+    <key>input</key>
+    <string>selection</string>
+    <key>keyEquivalent</key>
+    <string>^d</string>
+    <key>name</key>
+    <string>Set Task to Done</string>
+    <key>output</key>
+    <string>replaceSelectedText</string>
+    <key>uuid</key>
+    <string>3549EF10-8141-11E0-B278-0800200C9A66</string>
+</dict>
+</plist>
+        
