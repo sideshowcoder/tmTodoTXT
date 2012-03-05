@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+# If command is not set get via path
+if [[ ! $TM_TODO_CMD ]]; then
+  TM_TODO_CMD=`which todo.sh`
+fi
+# If config is not set, set to default
+if [[ ! $TM_TODO_CONFIG ]]; then
+  TM_TODO_CONFIG="$HOME/.todo/config"
+fi
+
+# Run archive command
+$TM_TODO_CMD -d $TM_TODO_CONFIG archive
+
+# Make sure textmate refreshes the file
+rescan_project</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^a</string>
+	<key>name</key>
+	<string>Archive Done Tasks</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>F84DD04C-D774-4683-AF06-F3ED901B9409</string>
+</dict>
+</plist>

@@ -17,6 +17,14 @@ Create a tmbundle to install
 
 Double click the bundle to install in Textmate
 
+Configuration
+-------------
+In case you are not using the default locations for the todotxt configuration you need to set the TM\_TODO\_CONFIG variable to the location of the Config
+
+![Set todotxt config path](http://d.pr/B8l "Set todotxt config path")
+
+Same holds true íf todo.sh is not in the path which is configured via the TM\_TODO\_CMD variable
+
 
 License (BSD) 
 -------------
