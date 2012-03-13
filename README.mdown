@@ -9,7 +9,7 @@ Installation
 ------------
 Check out the Bundle from Github and init the submodule rtodotxt
 
-  $ git clone https://github.com/sideshowcoder/tmTodoTXT ~/Desktop && git submodule init && git submodule update
+ $ git clone https://github.com/sideshowcoder/tmTodoTXT ~/Desktop/tmtodotxt && cd ~/Desktop/tmtodotxt  && git submodule init && git submodule update
   
 Create a tmbundle to install
   
