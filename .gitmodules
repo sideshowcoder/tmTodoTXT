@@ -1,0 +1,3 @@
+[submodule "Support/lib/rtodotxt"]
+	path = Support/lib/rtodotxt
+	url = git@github.com:sideshowcoder/rtodotxt.git

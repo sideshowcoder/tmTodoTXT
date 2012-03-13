@@ -6,8 +6,9 @@
     <string>nop</string>
     <key>command</key>
     <string>#!/usr/bin/env ruby
-require 'date'
-print "x #{Date.today.to_s} " + STDIN.read.gsub(/\(.\)\s/, '')</string>
+require ENV['TM_BUNDLE_SUPPORT'] + "/loader"
+todo = Rtodotxt::Todo.new STDIN.read
+print todo.done!.text</string>
     <key>fallbackInput</key>
     <string>line</string>
     <key>input</key>
