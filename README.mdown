@@ -7,6 +7,8 @@ Introduction
 
 Installation
 ------------
+Install from zipfile in Downloads, simply download unzip and doubleclick to install.
+
 Check out the Bundle from Github and init the submodule rtodotxt
 
  $ git clone https://github.com/sideshowcoder/tmTodoTXT ~/Desktop/tmtodotxt && cd ~/Desktop/tmtodotxt  && git submodule init && git submodule update
@@ -21,7 +23,7 @@ Configuration
 -------------
 In case you are not using the default locations for the todotxt configuration you need to set the TM\_TODO\_CONFIG variable to the location of the Config
 
-![Set todotxt config path](http://d.pr/B8l "Set todotxt config path")
+![Set todotxt config path](http://files.droplr.com/files_production/acc_30333/B8l?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1333978097&Signature=gHqbW6ZZu9RyrU3ur%2BrBUj4Ivpw%3D&response-content-disposition=inline%3B+filename%3D%22todo_config_var.png%22 "Set todotxt config path")
 
 Same holds true íf todo.sh is not in the path which is configured via the TM\_TODO\_CMD variable
 
