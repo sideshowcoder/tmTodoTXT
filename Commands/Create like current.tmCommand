@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require ENV['TM_BUNDLE_SUPPORT'] + "/loader"
+todo = Rtodotxt::Todo.new STDIN.read
+todostr = "\n"
+todostr &lt;&lt; "(#{todo.prio}) " unless todo.prio.empty?
+todostr &lt;&lt; "+#{todo.projects.join(" +")} " unless todo.projects.empty?
+todostr &lt;&lt; "@#{todo.contexts.join(" @")} " unless todo.contexts.empty?
+print todostr</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>$
+</string>
+	<key>name</key>
+	<string>Create like current</string>
+	<key>output</key>
+	<string>afterSelectedText</string>
+	<key>uuid</key>
+	<string>254EDC40-398E-4D3C-80DF-AA27E30F96EE</string>
+</dict>
+</plist>
