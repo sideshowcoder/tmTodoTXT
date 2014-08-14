@@ -3,7 +3,7 @@ TodoTXT TextMate Bundle
 
 Introduction
 ------------
-[Todotxt](http://todotxt.com/) is a command line todo manager originally started by [Gina Trapani](http://ginatrapani.org/). All todos are managed via a simple structured textfile, todo.txt. Currently this bundle only offers syntax highlighting, commands will follow.
+[Todotxt](http://todotxt.com/) is a command line todo manager originally started by [Gina Trapani](http://ginatrapani.org/). All todos are managed via a structured textfile, todo.txt.
 
 Installation
 ------------
