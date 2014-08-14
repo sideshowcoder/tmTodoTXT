@@ -7,7 +7,7 @@ Introduction
 
 Installation
 ------------
-Install from zipfile in Downloads, simply download unzip and doubleclick to install.
+Download the [Zipfile](https://github.com/sideshowcoder/tmTodoTXT/releases/download/v1.0.0/TodoTXT.tmBundle.zip) for the [release](https://github.com/sideshowcoder/tmTodoTXT/releases), unzip and double click to install.
 
 Install from Source
 -------------------
