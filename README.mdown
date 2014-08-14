@@ -9,26 +9,28 @@ Installation
 ------------
 Install from zipfile in Downloads, simply download unzip and doubleclick to install.
 
+Install from Source
+-------------------
 Check out the Bundle from Github and init the submodule rtodotxt
-
- $ git clone https://github.com/sideshowcoder/tmTodoTXT ~/Desktop/tmtodotxt && cd ~/Desktop/tmtodotxt  && git submodule init && git submodule update
-  
+```
+$ git clone https://github.com/sideshowcoder/tmTodoTXT ~/Desktop/tmtodotxt && cd ~/Desktop/tmtodotxt  && git submodule init && git submodule update
+```
 Create a tmbundle to install
-  
-  $ mv ~/Desktop/tmTodoTXT ~/Desktop/todotxt.tmbundle
+
+```
+$ mv ~/Desktop/tmTodoTXT ~/Desktop/todotxt.tmbundle
+```
 
 Double click the bundle to install in Textmate
 
 Configuration
 -------------
-In case you are not using the default locations for the todotxt configuration you need to set the TM\_TODO\_CONFIG variable to the location of the Config
+In case you are not using the default locations for the todotxt you need to set the TM\_TODO\_CONFIG to point the bundle to the right config, and TM\_TODO\_CMD to point the bundle to the todo.sh executable.
 
-![Set todotxt config path](http://files.droplr.com/files_production/acc_30333/B8l?AWSAccessKeyId=AKIAJSVQN3Z4K7MT5U2A&Expires=1333978097&Signature=gHqbW6ZZu9RyrU3ur%2BrBUj4Ivpw%3D&response-content-disposition=inline%3B+filename%3D%22todo_config_var.png%22 "Set todotxt config path")
-
-Same holds true íf todo.sh is not in the path which is configured via the TM\_TODO\_CMD variable
+![Set todotxt config path](https://s3.amazonaws.com/sideshowcoder/tmtodotxt_env_vars.png)
 
 
-License (BSD) 
+License (BSD)
 -------------
 Copyright (c) 2011, Philipp Fehre <philipp.fehre@gmail.com>
 All rights reserved.
